@@ -1,0 +1,1000 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    background: #F1F5F8;
+    text-decoration: none;
+}
+
+section {
+    border: 2px solid black;
+}
+
+.hover:hover{
+    border: 2px solid #CF3034;
+    color: #CF3034;
+    background: white;
+    color: #CF3034;
+    cursor: pointer;
+
+}
+
+/* Barre de Navigation */
+
+nav{
+    /* border: 1px solid black; */
+    width: min(100%, 84%);
+    height: 83px;
+    margin: 19px 122px 39px 122px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 2px 0 white;
+}
+
+nav .toggle {
+    display: none;
+}
+
+nav .toggle .ouvrir img{
+    width: 40px;
+    height: 28px;
+}
+
+nav .toggle .fermer img{
+    width: 32.77px;
+    height: 32.77px;
+}
+
+nav img{
+    width: 58px;
+    height: 58px;
+}
+
+nav ul.menu{
+    font-size: 18px;
+    font-weight: 400;
+    list-style-type: none;
+    display: flex;
+    gap: 57px;
+    margin-top: 16px;
+}
+
+nav ul.menu a{
+    color: black;
+    text-decoration: none; 
+}
+
+nav ul.menu a:hover{
+    color: #CF3034;
+}
+
+/* Acceuil */
+
+#s1 {
+    border: none;
+    width: min(100%, 84%);
+    min-height: 514px;
+    margin: 0 122px 100px 122px;
+    background: white;
+    display: flex;
+    gap: 40px;
+}
+
+
+#s1 .boxAcceuil img{
+    width: 300px;
+    height: 102px;
+    margin-top: 45px;
+    margin-bottom: 49px;
+    margin-left: 60px;
+}
+
+
+#s1 .boxAcceuil .text h1{
+    color: #CF3034;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 43px;
+    margin-bottom: 12px;
+    margin-left: 59px;
+    
+}
+
+#s1 .boxAcceuil .text p{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    margin-left: 59px;
+}
+
+
+.buttonRed{
+    width: 193px;
+    height: 52px;
+    margin-top: 49px;
+    margin-right: 19px;
+    margin-left: 56px;
+    border-radius: 6px;
+    border: none;
+    background: #CF3034;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24.55px;
+}
+
+.buttonRed2{
+    width: 193px;
+    height: 52px;
+    margin-bottom: 44px;
+    border-radius: 6px;
+    border: none;
+    background: #CF3034;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24.55px;
+}
+
+#s1 .imageAcceuil{
+   object-fit: contain; 
+}
+
+/* notre impact */
+
+#s2{
+    width: min(100%, 84%);
+    min-height: 347px;
+    margin: 0 311px 100px 122px;
+    border: none;
+    
+}
+
+#s2 h2{
+    font-size: 38px;
+    font-weight: 700;
+
+}
+
+#s2 .container{
+    width: min(100%, 84%);
+    min-height: 254px;
+    margin-top: 40px;
+    margin-left: 187px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+#s2 .container .card{
+    width: 197px;
+    height: 254px;
+    padding-left: 19px;
+    background: white;
+}
+
+#s2 .container .cardRed{
+    color: white;
+    background: #CF3034;
+    padding-top: 75px;
+    
+
+}
+
+#s2 .container .card .number{
+    padding-top: 31px;
+    color: #CF3034;
+    font-size: 64px;
+    line-height: 72.58px;
+    font-weight: bolder;
+}
+
+#s2 .container .card p{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 27.22px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+    white-space:pre-wrap;
+}
+
+#s2 .container .cardRed p{
+    font-weight: 700;
+}
+
+#s2 .container .cardImage{
+    height: 62px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#s2 .container .cardImage2{
+    height: 35px;
+}
+
+#s2 .container .cardImage3{
+    height: 76px;
+}
+
+/* Témoignages */
+
+#s3{
+    width: min(100%, 84%);
+    min-height: 568px;
+    margin: 0 122px 100px 122px;
+    border: none;
+}
+
+#s3 h2{
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 50px;   
+}
+
+
+#s3 .quotes{
+    /* border: solid 1px black; */
+    margin-left: 56px;
+    margin-top: 39px;
+    position: absolute;
+}
+
+#s3 .container{
+    /* border: 1px solid black; */
+    min-height: 464px;
+    background: white;
+}
+
+#s3 .container .flex{
+    display: flex;
+    align-items: center;
+    gap: 59px;
+}
+
+#s3 .container .flex .text{
+    width: min(100%, 65%);
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: 59px;
+    margin-top: 107px;
+}
+
+#s3 .container .flex .text2{
+    width: 439px;
+    margin-bottom: 71px;
+    font-weight: 600;
+    margin-top: 20px;
+    
+}
+
+#s3 .container .flex .carousel{
+    /* border: 1px black solid; */
+    width: 249px;
+    height: 333px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 59px;
+}
+
+#s3 .container .carouselButton{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 39px;
+    display: flex;
+    justify-content: space-around;
+    gap: 42px;
+    margin-top: 14px;
+    margin-bottom: 21px;
+}
+
+#s3 .container .carouselButton .number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+    font-size: 24px;
+    font-weight: 300;
+}
+#s3 .container .carouselButton .number .bold{
+    font-weight: 700;
+}
+
+
+#s3 .container .carouselButtonAlt{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 39px;
+    display: flex;
+    justify-content: space-around;
+    gap: 42px;
+    margin-top: 14px;
+    margin-bottom: 21px;
+    display: none;
+}
+
+#s3 .container .carouselButtonAlt .numberAlt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+    font-size: 24px;
+    font-weight: 300;
+}
+#s3 .container .carouselButtonAlt .numberAlt .boldAlt{
+    font-weight: 700;
+}
+
+/* Apprentis */
+
+#s4{
+    width: min(100%, 84%);
+    height: 468px;
+    margin: 0 122px 100px 122px;
+    border: none;
+}
+
+#s4 h2{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 43.09px;
+    margin-bottom: 50px;
+}
+
+#s4 .container{
+    /* border: 1px solid; */
+    height: 380px;
+    background: url("Images/img-apprentis.png") no-repeat center;
+    display: flex;
+    justify-content: flex-end;
+    }
+
+    #s4 .container .apprentis .visible{
+        display: none;
+    }
+
+#s4 .container .apprentis .buttonRed{
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 33px;
+}
+
+#s4 .container .apprentis {
+    width: 511px;
+    height: 320px;
+    background: white;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 35px;
+    box-shadow: 0px 15px 30px rgba(217, 222, 225, .24);
+}
+
+#s4 .container .apprentis p{
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 32px;
+    line-height: 20.41px;
+}
+
+
+#s4 .container .apprentis .bold{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    line-height: 27.22px;
+}
+
+/* Partenaires */
+
+#s5 {
+    border: none;
+    width: min(100%, 84%);
+    height: 313px;
+    margin: 0 122px 100px 122px;
+}
+
+#s5 h2{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 43.09px;
+    margin-bottom: 50px;
+}
+
+#s5 .logo{
+    /* border: 1px solid green; */
+    width:100%;
+    padding-top: 30px;
+    padding-bottom: 29px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+#s5 .arrow{
+    /* border: 1px black solid; */
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-top: -15px;
+    margin-right: -27px;
+}
+
+#s5 .carouselButton2{
+    /* border: 1px pink solid; */
+    width: 100%;
+    height: 39px;
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+    margin-top: 31px;
+    margin-left: 55px;
+    
+}
+
+#s5 .carouselButton2 .stop{
+    width: 14px;
+    height: 23px;
+    margin-top: 6px;
+}
+
+/* footer */
+
+footer #s6{
+    width: 100%;
+    color: white;
+    background: #CF3034;
+    border: none;
+}
+
+footer #s6 .grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "bloc1 bloc2" "bloc3 bloc3" "bloc4 bloc4";
+}
+
+
+
+footer #s6 .bloc1{
+    min-width: 311px;
+    height: 96px;
+    grid-area: bloc1;
+    margin-top: 50px;
+    margin-right: 60px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer #s6 .bloc2{
+    min-width: 315px;
+    height: 121px;
+    margin-top: 37px;
+    margin-left: 60px;
+    grid-area: bloc2; 
+}
+
+footer #s6 .bloc2 p{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+footer #s6 .bloc2 .strong{
+    font-size: 38px;
+}
+
+footer #s6 .bloc2 .formulaire{
+    display: flex;
+    margin-top: 20px;
+}
+
+footer #s6 .bloc2 .formulaire input{
+    width: 283px;
+    height: 30px;
+    background: #CF3034;
+    color: white;
+    border: 1px solid white;
+    padding: 7px 140px 7px 21px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+footer #s6 .bloc2 .formulaire button{
+    background: white;
+    width: 32px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+footer #s6 .bloc2 .formulaire button img{
+    width: 16px;
+    height: 16px;
+    margin: auto;
+}
+
+footer #s6 .bloc3{
+    height: 50px;
+    grid-area: bloc3;
+    display: flex;
+    justify-content: center;
+    gap: 29px;
+    margin-top: 58px;
+}
+
+
+footer #s6 .bloc4{
+    /* border: 1px solid black; */
+    grid-area: bloc4;
+    display: flex;
+    height: 28px;
+    gap: 28px;
+    justify-content: center;
+    margin-bottom: 21px;
+}
+
+footer #s6 .bloc4 a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+/* MEDIA */
+
+@media (max-width: 1307px){
+
+    /* Barre de Navigation */
+
+    nav {
+        width: 98%;
+        height: 58px;
+        margin: 16px 16px 20px 17px;
+        box-shadow: none;
+    }
+
+    nav .toggle{
+        display: block;
+        cursor: pointer;
+        position: relative;
+        z-index: 20;
+    }
+
+    nav img{
+        position: relative;
+        z-index: 20;
+    }
+
+    .ouvrir{
+        display: block;
+        margin-right: 36px;
+        margin-top: 13px;
+    }
+
+    .fermer{
+        display: none;
+        margin-right: 36px;
+        margin-top: 13px;
+    }
+
+    .open .ouvrir{
+        display: none;
+    }
+
+    .open .fermer{
+        display: block;
+    }
+
+    nav ul.menu{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: #F1F5F8;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 57px;
+        transform: translateY(-100%);
+    }
+
+    .open .menu {
+        transform: translateY(0);
+    }
+
+    /* Acceuil */
+
+    #s1 .imageAcceuil{
+        display: none;
+    }
+
+    #s1{
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 59px;
+    }
+
+
+    /* Impact */
+
+    #s2{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #s2 .container{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Temoignages */
+
+    #s3{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Apprentis */
+
+    #s4{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Partenaires  */
+
+    #s5{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media (max-width: 991px){
+    
+    /* footer */
+
+    footer #s6 .grid{
+        display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 200px);
+    grid-template-areas: "bloc2" "bloc4" "bloc3" "bloc1";
+
+    }
+
+    footer #s6 .bloc2{
+        height: 102px;
+        margin-left: 15px;
+    }
+
+    footer #s6 .bloc2 p{
+        font-size: 16px;
+    }
+
+    footer #s6 .bloc2 .strong{
+        font-size: 24px;
+    }
+
+    footer #s6 .bloc4{
+        height: 270px;
+        flex-direction: column;
+        margin-left: 15px;
+        gap: 18px;
+    }
+
+    footer #s6 .bloc4 img{
+        display: none;
+    }
+
+    footer #s6 .bloc3{
+        height: 35px;
+        margin-top: 142px;
+        gap: 20px;
+    }
+
+    footer #s6 .bloc3 img{
+        width: 35px;
+        height: 35px;
+    }
+
+    footer #s6 .bloc1{
+        margin-top: 34px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 977px){
+
+    /* Témoignage */
+
+    #s3 .container .flex .carousel{
+        display: none;
+    }
+
+    #s3 .container .flex .text{
+        width: 100%;
+        margin-left: 0;
+        padding: 0 59px;
+        font-size: 16px;
+    }
+
+    #s3 .container .flex .text2{
+        font-size: 16px;
+    }
+
+    #s3 .container .carouselButtonAlt{
+        display: flex;
+        justify-content: center;
+
+        
+    }  
+}
+
+
+@media (max-width: 838px){
+    
+    /* Acceuil */
+    
+    #s1{
+        /* border: 1px solid black; */
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    
+    #s1 .boxAcceuil{
+        margin: 0;
+        /* border: 1px solid black; */
+    }
+    
+    #s1 .boxAcceuil img{
+        margin-right: 0;
+        margin-left: 16px;
+        margin-top: 31px;
+        margin-bottom: 20px;
+    }
+    
+    #s1 .boxAcceuil .text h1{
+        width: 100%;
+        font-size: 24px;
+        margin-left: 16px;
+        margin-bottom: 7px;
+        line-height: 27.22px;
+    }
+    
+    #s1 .boxAcceuil .text p{
+        width: 105%;
+        margin-left: 16px;
+        margin-bottom: 36px;
+        margin-right: 0;
+    }
+    
+    #s1 .buttonRed{
+        margin-top: 0;
+        margin-left: 15px;
+        margin-right: 50px;
+        margin-bottom: 15px;
+        width: 106%;
+        
+    }
+    
+    #s1 .buttonRed2{
+        margin-top: 0;
+        margin-left: 15px;
+        margin-right: 50px;
+        margin-bottom: 31px;
+        width: 106%;
+    }
+
+    /* Temoignage */
+
+    #s3{
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    #s3 .container{
+        min-height: 200px;
+        margin-bottom: 50px;
+    }
+
+    #s3 h2{
+        font-size: 30px;
+        margin-left: 16px;
+        margin-bottom: 18px;
+    }
+    
+    #s3 .quotes{
+        height: 17px;
+        margin-top: 20px;
+        margin-left: 16px;
+        margin-bottom: 0;
+        padding-left: 2px;
+
+    }
+
+    #s3 .container .flex .text{
+        width: 100%;
+        margin-top: 30px;
+        padding: 16px;
+    }
+
+    #s3 .container .flex .text2{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    
+    #s3 .container .flex .text .visible{
+        display: block;
+        
+    }
+
+    #s3 .container .carouselButtonAlt{
+        margin-bottom: 15px;
+        justify-content: center;
+    }
+
+    /* Apprentis */
+
+    #s4{
+        width: 100%;
+        height: 534px;
+        margin-bottom: 50px;
+    }
+
+    #s4 h2{
+        font-size: 30px;
+        line-height: 34.02px;
+        margin-bottom: 20px;
+    }
+
+    #s4 .container{
+        background: none;
+    }
+
+    #s4 .container .apprentis{
+        background: blakc;
+        width: 100%;
+        height: fit-content;
+        padding-left: 3px;
+        padding-top: 15px;
+        padding-right: 3px;
+    }
+
+    #s4 .container .apprentis p{
+        font-size: 16px;
+        line-height: 18.18px;
+        padding-left: 10px;
+    }
+
+    #s4 .container .apprentis .bold{
+        font-size: 18px;
+        line-height: 20.41px;
+        width: 100%;
+        
+    }
+
+    #s4 .container .apprentis .visible{
+        display: block;
+    }
+
+    #s4 .container .apprentis .buttonRed{
+        width: 95%;
+        margin-left: 9px;
+        margin-bottom: 10px;
+
+    }
+    
+    
+    /* Partenaire */
+    
+    #s5{
+        width: 100%;
+    }
+
+    
+    #s5 h2{
+        font-size: 30px;
+        line-height: 34.02px;
+        margin-left: 17px;
+    }
+    
+    #s5 .logo img{
+        height: 50px;
+    }
+
+    #s5 .arrow{
+        background: white;
+        margin: 0;
+        display: flex;
+    }
+
+    #s5 .arrow .fleche{
+        position: relative; top: 32px; left: 22px;
+    }
+
+
+}
+
+@media (max-width: 574px){
+    
+    /* Impact */
+    
+    #s2 {
+        margin-left: 16px;
+        margin-bottom: 50px;
+        /* border: 1px solid black; */
+        width: 100%;
+    }
+    
+    #s2 h2{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    
+    #s2 .container{
+        width: 100%;
+        /* border: 1px solid black; */
+        margin: 0;
+        gap: 4px;
+    }
+    
+    #s2 .container .card .number{
+        font-size: 36px;
+        line-height: 40.82px;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    
+    #s2 .container .card p{
+        width: 154px;
+        font-size: 18px;
+        line-height: 20.41px;
+        white-space: normal;
+    }
+    
+    #s2 .container .cardRed p{
+        /* border: 1px solid black; */
+        font-size: 24px;
+        line-height: 27.22px;
+        width: 159px;
+        margin-top: -35px;
+    }
+    
+    #s2 .container .card{
+        width: 181px;
+        height: 183px;
+    
+    }
+
+    #s2 .container .cardImage{
+        height: 47px;
+    }
+
+    #s2 .container .cardImage2{
+        height: 27px;
+        margin-right: 0;
+    }
+
+    #s2 .container .cardImage3{
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+}
+
